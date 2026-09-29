@@ -1,0 +1,126 @@
+.Hero {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns:1fr;
+    gap: 1rem;
+}
+
+.hero-img {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+}
+
+.hero-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.hero-img::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+
+
+.hero-content {
+    position: absolute;
+    inset: 0;
+    z-index: 3;
+}
+.hero-left {
+    border: 1px solid white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+.hero-headline {
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    padding-top: 2rem;
+}
+
+.hero-headline .Tag {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.hero-headline h1 {
+    color: var(--white);
+}
+.hero-headline .hero-des {
+    width: 95%;
+    padding: 1rem;
+    background-color: rgba(34, 22, 0, 0.493);
+    border: 1px solid rgba(255, 166, 0, 0.2);
+    border-left: 4px solid rgb(255, 167, 3);
+    color: var(--white);
+    border-radius: 0.6rem;
+}
+
+
+.hero-btns {
+    display: flex;
+    gap: 2.4rem;
+}
+
+.hero-btns .heroBtn-1 {
+    background-color: var(--btn);
+    color: var(--white);
+    border: var(--btn-bdr);
+}
+.hero-btns .heroBtn-2 {
+    background-color: transparent;
+    color: var(--white);
+    border: 1px solid var(--white);
+}
+
+.Statistics-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    padding: 0.6rem 0;
+    border-radius: 0.8rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(4px);
+}
+.Stats-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 0.2rem;
+    border-right: 1px solid white;
+}
+.Stats-card:nth-child(3) {border: none;}
+
+.Stats-card h4 {
+    font-size: 2.2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.Stats-card p {
+    color: var(--white);
+}
+
+
+.hero-right {
+    display: none;
+}
+
