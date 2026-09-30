@@ -11,7 +11,7 @@ header {
     border-radius: 1.1rem;
     padding: 0.6rem 1.6rem 0.6rem 1rem;
 
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.75);
     box-shadow: 0 0 1px 0 rgba(255, 255, 255, 0.863);
     border: var(--bdr1);
 }
