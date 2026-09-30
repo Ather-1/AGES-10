@@ -57,13 +57,57 @@
 
 
 @media (min-width:1366px) {
+    header {
+        padding: 0.6rem 1rem;
+    }
+    nav {
+        position: static;
+        width: auto;
+        height: auto;
+        flex-direction: row;
+        gap: 2rem;
+        background-color: transparent;
+    }
+
+    nav a {
+        font-size: 1.4rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+        padding: 0;
+        border: none;
+        color: var(--black);
+    }
+    
+    header button {
+        display: block;
+        background-color: var(--black);
+        border-color: var(--black);
+        color: var(--white);
+        cursor: pointer;
+        transition: background-color 0.3s ease,
+                    color 0.3s ease;
+    }
+
+    header button:hover {
+        background-color: transparent;
+        color: var(--black);
+    }
+
+    .MenuBtns {display: none;}
+    
+
+    .Hero {
+        height: 80vh;
+    }
     .tagline {
         padding: 3rem;
     }
     .tagline h1 {
         width: 80%;
-        font-size: 6.8rem;
+        font-size: 6.2rem;
     }
+
+
 }
 
 
