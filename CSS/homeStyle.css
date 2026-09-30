@@ -1,3 +1,66 @@
+.Hero {
+    border: 1px solid;
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    overflow: hidden;
+}
+
+.Hero img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 1;
+}
+
+.Hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+
+
+
+/* .Hero-left {
+    position: absolute;
+    inset: 0;
+    z-index: 3;
+} */
+
+
+
+
+
+
+.hero-right {display: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* .Hero {
     position: relative;
     width: 100vw;
