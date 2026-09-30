@@ -12,7 +12,7 @@ header {
     padding: 0.6rem 1.6rem 0.6rem 1rem;
 
     background-color: rgba(255, 255, 255, 0.7);
-    box-shadow: 0 0 18px -2px rgba(255, 255, 255, 0.842);
+    box-shadow: 0 0 1px 0 rgba(255, 255, 255, 0.863);
     border: var(--bdr1);
 }
 
