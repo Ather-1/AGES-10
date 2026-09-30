@@ -1,3 +1,10 @@
+const Redirent_to_top = document.getElementById("Logo");
+Redirent_to_top.addEventListener('click', function () {
+    window.location.href = 'index.html';
+});
+
+
+
 const openMenu = document.querySelector(".menuOpen");
 const closeMenu = document.querySelector(".menuClose");
 const navMenu = document.querySelector("nav");

@@ -16,17 +16,6 @@ header {
 
 
 
-.MenuBtns {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-}
-
-.menuClose { display: none;}
-
-
-
 
 
 
@@ -35,16 +24,39 @@ header {
 header img {
     width: 8.5rem;
     height: auto;
+    cursor: pointer;
 }
 
 nav {
-    display: none;
+    border: 1px solid;
+    position: fixed;
+    right: 0%;
+    left: 0%;
+
+
+    top: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+
+
+
 }
 
-header button {
-    display: none;
+header button { display: none;}
+
+.MenuBtns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    cursor: pointer;
 }
 
+.menuClose { display: none;}
 
 
 
