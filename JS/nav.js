@@ -1,6 +1,6 @@
-const openMenu = document.querySelector(".open-menu")
-const closeMenu = document.querySelector(".close-menu")
-const navMenu = document.querySelector("nav")
+const openMenu = document.querySelector(".menuOpen");
+const closeMenu = document.querySelector(".menuClose");
+const navMenu = document.querySelector("nav");
 
 openMenu.addEventListener('click', () => {
     navMenu.classList.add("active");
